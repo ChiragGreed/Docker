@@ -3,9 +3,8 @@ import { getMe, healthCheck } from '../controllers/dummyController.js';
 
 const dummyRoutes = express.Router();
 
-dummyRoutes.get('/', getMe);
+dummyRoutes.get('/getMe', getMe);
 
 dummyRoutes.get('/healthCheck', healthCheck);
 
-
-export default dummyRoutes
+export default dummyRoutes;

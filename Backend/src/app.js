@@ -4,6 +4,6 @@ import dummyRoutes from './routes/dummyRoutes.js';
 const app = express();
 
 
-app.use('/api/dummy',dummyRoutes);
+app.use('/api',dummyRoutes);
 
 export default app;
