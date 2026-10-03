@@ -1,17 +1,17 @@
+const user = { id: '131', fullName: "Yoshimitsu kanba", email: "yoshi01@gmail.com", role: "admin" };
 
-export const getMe = (req, res) => {
-    const dummyUser = { fullName: "MR.Dummy", email: "dummy02@gmail.com", userName: "DummyUsername#1" };
-
+export const health = (req, res) => {
     res.status(200).json({
-        message: "Fetched user details succefully",
-        success: true,
-        user: dummyUser
+        message: "Fetched health report",
+        status: "Okay",
+        success: true
     })
 }
 
-export const healthCheck = (req, res) => {
+export const getMe = (req, res) => {
     res.status(200).json({
-        message: "Server is live and running.",
-        success: true
+        message: "Fetched user details",
+        success: true,
+        user: user
     })
 }

@@ -1,0 +1,30 @@
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #f5f7ff 0%, #eef2ff 100%);
+  font-family: Arial, sans-serif;
+}
+
+.app-card {
+  width: min(420px, 90vw);
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+  padding: 2rem 2.5rem;
+  text-align: center;
+}
+
+.app-card h1 {
+  margin: 0 0 0.75rem;
+  color: #1f2937;
+  font-size: 2rem;
+}
+
+.app-card h2,
+.app-card h3 {
+  margin: 0.5rem 0;
+  color: #4b5563;
+  font-weight: 500;
+}

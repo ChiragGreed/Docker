@@ -1,6 +1,5 @@
-import app from "./src/app.js";
+import app from './src/app.js';
 
-
-app.listen(7000,()=>{
-    console.log("Server is running at port 7000");
-});
+app.listen(8000, () => {
+    console.log("Server is running at port 8000");
+})

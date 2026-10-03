@@ -1,10 +1,10 @@
 import express from 'express';
-import { getMe, healthCheck } from '../controllers/dummyController.js';
+import { getMe, health } from '../controllers/dummyController.js';
 
 const dummyRoutes = express.Router();
 
-dummyRoutes.get('/getMe', getMe);
+dummyRoutes.get('/getMe', getMe)
 
-dummyRoutes.get('/healthCheck', healthCheck);
+dummyRoutes.get('/health', health);
 
 export default dummyRoutes;
