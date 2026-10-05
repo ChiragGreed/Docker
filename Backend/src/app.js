@@ -6,7 +6,7 @@ import path from 'path';
 
 const app = express();
 
-const index = path.join(import.meta.dirname, '../', '/public/dist');
+const index = path.join(import.meta.dirname, '../', '/public');
 
 app.use(express.json());
 app.use(morgan('tiny'));
